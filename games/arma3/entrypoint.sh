@@ -344,6 +344,8 @@ if [[ ${MODS_LOWERCASE} == "1" ]]; then
     do
         ModsLowercase $modDir
     done
+	
+    ModsLowercase ./mods/
 fi
 
 # Clear HC cache, if specified
